@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Internet
+Comment=Standalone silo app for Duo
+Exec=silo -a duo
+GenericName=Google Duo
+Icon=silo-skype
+MimeType=
+Name=Duo
+Path=
+StartupNotify=true
+Terminal=false
+Type=Application
+StartupWMClass=silos-duo

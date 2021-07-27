@@ -1,0 +1,15 @@
+{
+        "name": "Google Duo",
+        "scope": ["https?\\:\\/\\/duo\\.google\\.com(?:\\/.*|)"],
+        "plugins": [
+            {"name": "GoogleAuthentication"},
+            {"name": "WebRTC"},
+            {"name": "Notifications"},
+            {"name": "ChangeUserAgent", "user-agent": "chrome"}
+        ],
+        "home": "https://duo.google.com/?web",
+        "icon": "icons/google-duo.svg",
+        "saveSession": false,
+        "menuDisabled": false,
+        "download": true
+}
